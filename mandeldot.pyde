@@ -1,3 +1,5 @@
+# vim: ft=python
+
 TOL = 1e-5
 HUE_DELTA = 1
 POINT_SIZE = 3
@@ -19,7 +21,6 @@ def setup():
     f = createFont("courier", 20)
     size(800, 800)
     m_iters = []
-    hu = 0
     background(0)
     noStroke()
     colorMode(HSB, 255, 255, 255)
