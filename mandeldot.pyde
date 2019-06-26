@@ -1,5 +1,3 @@
-# vim: ft=python
-
 TOL = 1e-5
 HUE_DELTA = 1
 POINT_SIZE = 3
